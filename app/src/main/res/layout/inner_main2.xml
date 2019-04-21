@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity2"
+    tools:showIn="@layout/activity_main2"
+    android:fitsSystemWindows="true"
+    >
+    <View
+        android:id="@+id/fabLinear1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/fabback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:divider="#ffffff"
+        android:dividerHeight="10dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toTopOf="@+id/fabLinear1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1"
+        app:layout_constraintWidth_percent="0.85" />
+
+</android.support.constraint.ConstraintLayout>

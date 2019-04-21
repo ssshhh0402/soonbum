@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "199016739452",
+    "firebase_url": "https://sungchang-sos-button.firebaseio.com",
+    "project_id": "sungchang-sos-button",
+    "storage_bucket": "sungchang-sos-button.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199016739452:android:01709ff223266d53",
+        "android_client_info": {
+          "package_name": "com.example.hong.dhproject3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199016739452-i636u69h0d3rduaalloiv5eop5ib0fac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNFsAUK98YR-oCljRde6-WQF1urK43Fzg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
